@@ -8,7 +8,7 @@ export default ({ env }) => ({
         region: env('AWS_REGION'), /// if using aws S3
         endpoint: env('S3_ENDPOINT'), // e.g. "s3.fr-par.scw.cloud"
         params: {
-          Bucket: env('AWS_BUCKET'),
+          Bucket: env('S3_BUCKET_NAME'),
         },
       },
       actionOptions: {
