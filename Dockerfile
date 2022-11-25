@@ -10,7 +10,7 @@ COPY .yarn ./.yarn
 COPY .yarnrc.yml ./.yarnrc.yml
 
 ENV PATH /opt/node_modules/.bin:$PATH
-RUN yarn install --network-timeout 600000
+RUN yarn install
 COPY ./ .
 RUN yarn build
 
