@@ -15,7 +15,7 @@
     "@strapi/plugin-users-permissions": "4.5.2",
     "@strapi/provider-upload-aws-s3": "4.5.2",
     "@strapi/strapi": "4.5.2",
-    "better-sqlite3": "7.4.6",
+    "better-sqlite3": "7.6.2",
     "mysql": "2.18.1",
     "pg": "8.6.0"
   },
