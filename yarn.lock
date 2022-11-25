@@ -11559,7 +11559,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pg-pool@npm:^3.3.0":
+"pg-pool@npm:^3.5.2":
   version: 3.5.2
   resolution: "pg-pool@npm:3.5.2"
   peerDependencies:
@@ -11588,23 +11588,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pg@npm:8.6.0":
-  version: 8.6.0
-  resolution: "pg@npm:8.6.0"
+"pg@npm:8.8.0":
+  version: 8.8.0
+  resolution: "pg@npm:8.8.0"
   dependencies:
     buffer-writer: 2.0.0
     packet-reader: 1.0.0
     pg-connection-string: ^2.5.0
-    pg-pool: ^3.3.0
+    pg-pool: ^3.5.2
     pg-protocol: ^1.5.0
     pg-types: ^2.1.0
     pgpass: 1.x
   peerDependencies:
-    pg-native: ">=2.0.0"
+    pg-native: ">=3.0.1"
   peerDependenciesMeta:
     pg-native:
       optional: true
-  checksum: 37d5d656bf827409c33b3f44cbefc2a435238252f69dfae38112dc35c191090194ab2d5b221ae7b8dc9beed24c71f7f8a97f891130272c6db831d2f9f689d07c
+  checksum: fa30a85814dd7238b582c3bc6c0b9e2b0ae38dd0a6bb485ef480e64bb5ce589de6cb873ce4d3cd10c37a3e0a1e1281ba75dc7d80b1a68bae91999cd5b70d398b
   languageName: node
   linkType: hard
 
@@ -13621,7 +13621,7 @@ __metadata:
     "@strapi/strapi": 4.5.2
     better-sqlite3: 7.4.6
     mysql: 2.18.1
-    pg: 8.6.0
+    pg: 8.8.0
   languageName: unknown
   linkType: soft
 
