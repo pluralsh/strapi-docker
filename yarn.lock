@@ -4515,15 +4515,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:7.4.6":
-  version: 7.4.6
-  resolution: "better-sqlite3@npm:7.4.6"
+"better-sqlite3@npm:12.2.0":
+  version: 12.2.0
+  resolution: "better-sqlite3@npm:12.2.0"
   dependencies:
     bindings: ^1.5.0
     node-gyp: latest
-    prebuild-install: ^7.0.0
-    tar: ^6.1.11
-  checksum: 593241b9deb6621c7f4c72f1679c3b07b5711df48d91a6743119e4563866c3c1ba62f1ebfd34181d14144cdb8f287811b9391a16d384fdfb25089b88ee6a5633
+    prebuild-install: ^7.1.1
+  checksum: b752119ea306c5a70d5bacdf5607fd69b39142b7c8c30d72f530047fedad0b651195b37e8a8067f106d3c56d6913dc0077f1d658916f07bcdad6841384d2bb1b
   languageName: node
   linkType: hard
 
@@ -11781,7 +11780,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prebuild-install@npm:^7.0.0, prebuild-install@npm:^7.1.1":
+"prebuild-install@npm:^7.1.1":
   version: 7.1.1
   resolution: "prebuild-install@npm:7.1.1"
   dependencies:
@@ -13619,7 +13618,7 @@ __metadata:
     "@strapi/plugin-users-permissions": 4.5.2
     "@strapi/provider-upload-aws-s3": 4.5.2
     "@strapi/strapi": 4.5.2
-    better-sqlite3: 7.4.6
+    better-sqlite3: 12.2.0
     mysql: 2.18.1
     pg: 8.6.0
   languageName: unknown
